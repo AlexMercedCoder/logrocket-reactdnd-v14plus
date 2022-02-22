@@ -14,7 +14,7 @@ const Dropzone = ({ onDrop, accept }) => {
   });
 
   return (
-    <div className={getClassName("dropzone", isDragActive)} {...getRootProps()}>
+    <div className="dropzone-div" {...getRootProps()}>
       <input className="dropzone-input" {...getInputProps()} />
       <div className="text-center">
         {isDragActive ? (
